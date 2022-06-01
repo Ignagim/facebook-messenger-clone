@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.app__logo {
+  margin-top: 20px;
+}
+
+header h1 {
+  line-height: 0;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.app__titleUser {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.app__form {
+  border-radius: 20px;
+  box-shadow: 1px 2px 10px #555;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #e9e9eb;
+  width: 90%;
+  margin: auto;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+}
+
+.app__input {
+  flex: 1;
+}
+
+.app__iconButton {
+  flex: 0 ;
+}
+
+
+.app__messages {
+ width: 90%;
+right: 0;
+left: 0;
+margin: auto;
+}
+
+.app__header {
+  width: 100%;
+  z-index: 100000;
+  background-color: #fff;
+}
